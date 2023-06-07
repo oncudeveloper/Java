@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         boolean start = false;
         int age = 18;
-        char c = 'T';
+        
 
         if(start == true){
             System.out.println("The program has started");
