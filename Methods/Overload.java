@@ -11,11 +11,17 @@ public class Overload {
     public static String sum(String i,String j){
         return i+j;
     }
+    static void sum(){
+        System.out.println("I just got executed!");
+    }
 
 
     public static void main(String[] args) {
         System.out.println(sum(1,2));
         System.out.println(sum(1.2,1.3));
         System.out.println(sum("Hello ","World"));
+        sum();
+        sum();
+        sum();
     }
 }
