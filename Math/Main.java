@@ -15,6 +15,6 @@ public class Main {
         System.out.println(Math.pow(x, y));
         System.out.println(Math.sqrt(x));
         System.out.println(Math.round(i));
-        
+        System.out.println(Math.decrementExact(x));
     }
 }
